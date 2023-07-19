@@ -134,12 +134,12 @@ const Formtable = ({ tableName, supabase }) => {
                                                 <br />
                                                 <Button
                                                     onClick={updateDetails}
-                                                    sx={{ margin: '0.5rem' }}
+                                                    sx={{ margin: '0.2rem' }}
                                                     variant='contained'
                                                 >Update</Button>
                                                 <Button
                                                     onClick={handleClose}
-                                                    sx={{ margin: '0.5rem' }}
+                                                    sx={{ margin: '0.2rem' }}
                                                     variant='contained'
                                                 >Close</Button>
                                             </form>

@@ -1,4 +1,3 @@
-import * as React from 'react';
 import {Container,
         InputLabel,
         TextField, 
@@ -74,7 +73,8 @@ const Formcontainer = ({supabase,tableName}) =>{
                 aria-labelledby="modal-title"
                 aria-describedby="modal-description"
                 >
-                <Box sx={style} id="box-modal">
+                
+                <Box sx={style}>
                     <Typography sx={{ marginBottom: '0.5rem' }} id="modal-title" variant="h6" component="h2">
                         Fill Details
                     </Typography>
@@ -113,7 +113,7 @@ const Formcontainer = ({supabase,tableName}) =>{
                 <Typography variant="h5" component="h5" gutterBottom>
                     All Details
                 </Typography>
-                <Formtable tableName={tableName} supabase={supabase} style={style} />
+                <Formtable tableName={tableName} supabase={supabase}/>
             </Container>
         </>
     );
