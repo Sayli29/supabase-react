@@ -1,6 +1,5 @@
 import Navbar from '../components/Navbar/Navbar';
-import Formcontainer from '../components/Form/Formcontainer';
-// import './App.css'
+import InsertDialog from '../components/InsertDialog/InsertDialog';
 import { createClient } from "@supabase/supabase-js";
 
 const url = import.meta.env.VITE_REACT_URL;
@@ -13,10 +12,10 @@ function App() {
   return (
     <>
       <Navbar></Navbar>
-      <Formcontainer 
+      <InsertDialog 
       supabase={supabase} 
       tableName={tableName}>
-      </Formcontainer>
+      </InsertDialog>
     </>
   );
 }

@@ -5,7 +5,7 @@ import {Container,
         Typography,
         Box, 
         Modal } from '@mui/material';
-import Formtable from '../DetailsTable/Formtable'
+import EditDialog from '../EditDialog/EditDialog';
 import {useState} from 'react';
 
 const style = {
@@ -19,7 +19,7 @@ const style = {
     boxShadow: 10,
     p: 4,
 };
-const Formcontainer = ({supabase,tableName}) =>{
+const InsertDialog = ({supabase,tableName}) =>{
     
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
@@ -113,9 +113,9 @@ const Formcontainer = ({supabase,tableName}) =>{
                 <Typography variant="h5" component="h5" gutterBottom>
                     All Details
                 </Typography>
-                <Formtable tableName={tableName} supabase={supabase}/>
+                <EditDialog tableName={tableName} supabase={supabase}/>
             </Container>
         </>
     );
 }
-export default Formcontainer;
+export default InsertDialog;

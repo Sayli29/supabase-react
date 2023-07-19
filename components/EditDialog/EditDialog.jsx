@@ -28,7 +28,7 @@ const style = {
     p: 4,
 };
 
-const Formtable = ({ tableName, supabase }) => {
+const EditDialog = ({ tableName, supabase }) => {
     const [open, setOpen] = useState(false);
     const [data, setData] = useState([]);
     const [name, setName] = useState();
@@ -154,4 +154,4 @@ const Formtable = ({ tableName, supabase }) => {
         </>
     );
 }
-export default Formtable;
+export default EditDialog;
