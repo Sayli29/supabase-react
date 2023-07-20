@@ -1,6 +1,6 @@
-# CRUD App with React, Material-UI, and Supabase using Vite
+# Supabase React CRUD App
 
-This is a simple CRUD (Create, Read, Update, Delete) application built using React, Material-UI, and Supabase. The app allows users to perform basic operations on a dataset stored in a Supabase database.
+This is a simple CRUD (Create, Read, Update, Delete) application built using React, Material-UI, Vite, and Supabase. The app allows users to perform basic operations on a dataset stored in a Supabase database.
 
 ## Table of Contents
 
@@ -20,7 +20,7 @@ CRUD operations are fundamental in most applications as they allow users to crea
 
 The CRUD app comes with the following features:
 
-1. **Create**: Users can add new data entries to the database through a insert button which opens as modal.
+1. **Create**: Users can add new data entries to the database through a user-friendly form.
 2. **Read**: The app displays the existing dataset in a tabular format, allowing users to view the stored information.
 3. **Update**: Users can modify existing data entries by updating the relevant fields.
 4. **Delete**: The app allows users to remove unwanted data entries from the database.
@@ -31,8 +31,8 @@ The following technologies were used to build this CRUD app:
 
 - **React**: A popular JavaScript library for building user interfaces.
 - **Material-UI**: A React UI framework that provides pre-built components with a modern design.
-- **Supabase**: An open-source alternative to Firebase that provides a scalable backend infrastructure for applications.
 - **Vite**: A fast and lightweight build tool that serves as a development server.
+- **Supabase**: An open-source alternative to Firebase that provides a scalable backend infrastructure for applications.
 
 ## Installation
 
@@ -41,7 +41,7 @@ Follow the steps below to set up the CRUD app locally:
 1. Clone the repository to your local machine:
 
    ```
-  git clone https://github.com/your-username/supabase-react-crud-app.git
+   git clone https://github.com/your-username/supabase-react-crud-app.git
    ```
 
 2. Change directory to the project folder:
@@ -77,7 +77,7 @@ Once you have set up the project, you can run the app locally using the followin
 npm run dev
 ```
 
-This will start a development server, and you can access the app in your web browser by visiting `http://localhost:3000`.
+This will start a development server provided by Vite, and you can access the app in your web browser by visiting `http://localhost:3000`.
 
 ## Contributing
 
@@ -88,4 +88,3 @@ If you'd like to contribute to this project, follow these steps:
 3. Make your changes and commit them: `git commit -m "Add your feature"`.
 4. Push the changes to your forked repository: `git push origin feature/your-feature`.
 5. Submit a pull request to the original repository.
-
