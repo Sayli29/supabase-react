@@ -88,10 +88,3 @@ If you'd like to contribute to this project, follow these steps:
 4. Push the changes to your forked repository: `git push origin feature/your-feature`.
 5. Submit a pull request to the original repository.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
-Feel free to customize this README to suit your project's specific needs. Good luck with your CRUD app! If you have any questions or need further assistance, feel free to contact the project maintainers. Happy coding!
