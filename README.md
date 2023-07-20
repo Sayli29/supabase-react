@@ -1,4 +1,4 @@
-# CRUD App with React, Material-UI, and Supabase
+# CRUD App with React, Material-UI, and Supabase using Vite
 
 This is a simple CRUD (Create, Read, Update, Delete) application built using React, Material-UI, and Supabase. The app allows users to perform basic operations on a dataset stored in a Supabase database.
 
@@ -32,6 +32,7 @@ The following technologies were used to build this CRUD app:
 - **React**: A popular JavaScript library for building user interfaces.
 - **Material-UI**: A React UI framework that provides pre-built components with a modern design.
 - **Supabase**: An open-source alternative to Firebase that provides a scalable backend infrastructure for applications.
+- **Vite**: A fast and lightweight build tool that serves as a development server.
 
 ## Installation
 
@@ -40,13 +41,13 @@ Follow the steps below to set up the CRUD app locally:
 1. Clone the repository to your local machine:
 
    ```
-   git clone https://github.com/your-username/crud-app.git
+  git clone https://github.com/your-username/supabase-react-crud-app.git
    ```
 
 2. Change directory to the project folder:
 
    ```
-   cd crud-app
+   cd supabase-react-crud-app
    ```
 
 3. Install the required dependencies using npm or yarn:
@@ -73,7 +74,7 @@ Follow the steps below to set up the CRUD app locally:
 Once you have set up the project, you can run the app locally using the following command:
 
 ```
-npm start
+npm run dev
 ```
 
 This will start a development server, and you can access the app in your web browser by visiting `http://localhost:3000`.
